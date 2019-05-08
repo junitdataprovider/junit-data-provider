@@ -6,7 +6,6 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.ArgumentsProvider;
 import org.junit.jupiter.params.support.AnnotationConsumer;
 
-import java.lang.annotation.Annotation;
 import java.util.stream.Stream;
 
 public abstract class CustomArgumentProvider<T extends ArgumentSource> implements ArgumentsProvider, AnnotationConsumer<T> {
