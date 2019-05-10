@@ -1,7 +1,7 @@
 package org.edhernandez.junit.jupiter.dataprovider.resolver;
 
-import org.edhernandez.junit.jupiter.dataprovider.provider.Argument;
-import org.edhernandez.junit.jupiter.dataprovider.provider.Provider;
+import org.edhernandez.junit.jupiter.dataprovider.model.Argument;
+import org.edhernandez.junit.jupiter.dataprovider.model.Provider;
 import org.edhernandez.junit.jupiter.dataprovider.service.ProviderService;
 import org.edhernandez.junit.jupiter.dataprovider.utils.FileUtils;
 import org.edhernandez.junit.jupiter.dataprovider.utils.ResourcesUtils;

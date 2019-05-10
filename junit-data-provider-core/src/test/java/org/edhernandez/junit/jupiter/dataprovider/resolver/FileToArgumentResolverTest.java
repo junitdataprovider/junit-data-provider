@@ -1,6 +1,6 @@
 package org.edhernandez.junit.jupiter.dataprovider.resolver;
 
-import org.edhernandez.junit.jupiter.dataprovider.provider.Argument;
+import org.edhernandez.junit.jupiter.dataprovider.model.Argument;
 import org.edhernandez.junit.jupiter.dataprovider.service.impl.ProviderServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

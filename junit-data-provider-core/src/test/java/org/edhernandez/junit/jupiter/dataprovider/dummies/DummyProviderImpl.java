@@ -1,11 +1,10 @@
 package org.edhernandez.junit.jupiter.dataprovider.dummies;
 
 import com.google.common.collect.Lists;
-import org.edhernandez.junit.jupiter.dataprovider.provider.Argument;
-import org.edhernandez.junit.jupiter.dataprovider.provider.Provider;
+import org.edhernandez.junit.jupiter.dataprovider.model.Argument;
+import org.edhernandez.junit.jupiter.dataprovider.model.Provider;
 
 import java.io.File;
-import java.lang.annotation.Annotation;
 import java.util.List;
 
 public class DummyProviderImpl implements Provider<Argument> {

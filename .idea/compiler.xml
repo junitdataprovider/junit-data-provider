@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="junit-data-provider-core" />
+        <module name="junit-data-provider-jackson" />
+        <module name="junit-data-provider-core-interfaces" />
       </profile>
     </annotationProcessing>
   </component>

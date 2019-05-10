@@ -1,4 +1,6 @@
-package org.edhernandez.junit.jupiter.dataprovider.provider;
+package org.edhernandez.junit.jupiter.dataprovider.model;
+
+import org.edhernandez.junit.jupiter.dataprovider.model.Argument;
 
 import java.io.File;
 import java.util.List;
