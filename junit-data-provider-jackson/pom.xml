@@ -10,6 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>junit-data-provider-jackson</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.edhernandez.junit.jupiter.dataprovider</groupId>
+            <artifactId>junit-data-provider-core-interfaces</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

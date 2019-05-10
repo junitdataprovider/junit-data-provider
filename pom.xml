@@ -22,7 +22,7 @@
         <reflections.version>0.9.10</reflections.version>
         <mockito.version>2.21.0</mockito.version>
     </properties>
-    
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -78,6 +78,11 @@
                 <artifactId>mockito-core</artifactId>
                 <version>${mockito.version}</version>
                 <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.edhernandez.junit.jupiter.dataprovider</groupId>
+                <artifactId>junit-data-provider-core-interfaces</artifactId>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
