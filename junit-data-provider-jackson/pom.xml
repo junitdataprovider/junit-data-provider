@@ -13,7 +13,11 @@
     <dependencies>
         <dependency>
             <groupId>org.edhernandez.junit.jupiter.dataprovider</groupId>
-            <artifactId>junit-data-provider-core-interfaces</artifactId>
+            <artifactId>junit-data-provider-commons</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
         </dependency>
     </dependencies>
 

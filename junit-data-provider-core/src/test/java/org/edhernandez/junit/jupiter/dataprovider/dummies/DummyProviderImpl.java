@@ -7,16 +7,15 @@ import org.edhernandez.junit.jupiter.dataprovider.interfaces.Provider;
 import java.io.File;
 import java.util.List;
 
-public class DummyProviderImpl implements Provider<Argument> {
+public class DummyProviderImpl extends Provider<Argument> {
+    public DummyProviderImpl() {
+        super("dmy");
+    }
+
     @Override
     public List<Argument> provide(File source) {
         return Lists.newArrayList(new Argument() {
         });
-    }
-
-    @Override
-    public String supports() {
-        return "dmy";
     }
 
 }

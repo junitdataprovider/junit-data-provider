@@ -3,9 +3,17 @@ package org.edhernandez.junit.jupiter.dataprovider.interfaces;
 import java.io.File;
 import java.util.List;
 
-public interface Provider<T extends Argument> {
+public abstract class Provider<T extends Argument> {
 
-    List<T> provide(File file);
+    private String supportedFile;
 
-    String supports();
+    public Provider(String supportedFile) {
+        this.supportedFile = supportedFile;
+    }
+
+    public abstract List<T> provide(File file);
+
+    public String supports() {
+        return supportedFile;
+    }
 }

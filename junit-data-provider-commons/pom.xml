@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>junit-data-provider-core-commons</artifactId>
+    <artifactId>junit-data-provider-commons</artifactId>
 
 
 </project>
