@@ -1,4 +1,4 @@
-package org.edhernandez.junit.jupiter.dataprovider.provider.resolver;
+package org.edhernandez.junit.jupiter.dataprovider.resolver;
 
 import org.edhernandez.junit.jupiter.dataprovider.provider.Argument;
 import org.edhernandez.junit.jupiter.dataprovider.provider.Provider;
@@ -23,7 +23,7 @@ public class FileToArgumentResolver {
         providerMap = providerService.get();
     }
 
-    public List<Argument> resolve(String filePath) throws FileNotFoundException {
+    public List<Argument> resolve(String filePath) {
         try {
             File file = ResourcesUtils.getFile(filePath);
             String extension = FileUtils.getFileExtension(file.getName());

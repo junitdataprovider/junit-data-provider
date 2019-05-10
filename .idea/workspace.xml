@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74ba2684-c542-436d-9b16-7fec2b7cdd41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JupiterDataProvider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/resolver/FileToArgumentResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/utils/ResourcesUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/service/resolver/FileToArgumentResolverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/utils/ResourceUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/src/test/resources/examples/firstExample.dmy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/target/classes/org/edhernandez/junit/jupiter/dataprovider/annotation/ArgumentSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/target/classes/org/edhernandez/junit/jupiter/dataprovider/provider/Argument.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/target/classes/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/target/classes/org/edhernandez/junit/jupiter/dataprovider/provider/Provider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/target/classes/org/edhernandez/junit/jupiter/dataprovider/provider/ProviderFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/target/classes/org/edhernandez/junit/jupiter/dataprovider/service/ProviderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/target/classes/org/edhernandez/junit/jupiter/dataprovider/service/impl/ProviderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/target/classes/org/edhernandez/junit/jupiter/dataprovider/utils/FileUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/target/test-classes/org/edhernandez/junit/jupiter/dataprovider/dummies/DummyProviderImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/target/test-classes/org/edhernandez/junit/jupiter/dataprovider/dummies/MyProviderFactoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/target/test-classes/org/edhernandez/junit/jupiter/dataprovider/dummies/MyProviderFactoryWithArgumentsImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/target/test-classes/org/edhernandez/junit/jupiter/dataprovider/dummies/MyProviderFactoryWithProtectedConstructorImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/target/test-classes/org/edhernandez/junit/jupiter/dataprovider/service/ProviderServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/target/test-classes/org/edhernandez/junit/jupiter/dataprovider/utils/FileUtilsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vpproject/JupiterDataProvider.vpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/Provider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/dummies/DummyProviderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/dummies/DummyProviderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/resolver/FileToArgumentResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/resolver/FileToArgumentResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/service/resolver/FileToArgumentResolverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/resolver/FileToArgumentResolverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit-data-provider-core/target/classes/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit-data-provider-core/target/classes/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProvider.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/Provider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="102">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,15 +63,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/service/resolver/FileToArgumentResolverTest.java">
+        <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+            <state relative-caret-position="425">
+              <caret line="27" column="84" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/annotation/ArgumentSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProviderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#1398#1399#0" expanded="true" />
+                <element signature="e#1457#1458#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/resolver/FileToArgumentResolverTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="23" column="103" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -129,7 +141,6 @@
       <list>
         <option value="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/AbstractArgumentProvider.java" />
         <option value="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/ArgumentProvider.java" />
-        <option value="$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProviderTest.java" />
         <option value="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/ProviderSearch.java" />
         <option value="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/resolver/AnnotationResolver.java" />
         <option value="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/resolver/ArgumentSourceAnnotationResolver.java" />
@@ -151,7 +162,6 @@
         <option value="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/annotation/ArgumentSource.java" />
         <option value="$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/utils/FileUtilsTest.java" />
         <option value="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/utils/FileUtils.java" />
-        <option value="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProvider.java" />
         <option value="$PROJECT_DIR$/junit-data-provider-core/src/test/resources/examples/firstExample.dmy" />
         <option value="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/utils/ResourcesUtils.java" />
         <option value="$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/utils/ResourceUtilsTest.java" />
@@ -159,6 +169,8 @@
         <option value="$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/dummies/DummyProviderImpl.java" />
         <option value="$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/service/resolver/FileToArgumentResolverTest.java" />
         <option value="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/resolver/FileToArgumentResolver.java" />
+        <option value="$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProvider.java" />
+        <option value="$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProviderTest.java" />
       </list>
     </option>
   </component>
@@ -180,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,17 +254,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dataprovider" type="462c0819:PsiDirectoryNode" />
               <item name="provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JupiterDataProvider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JupiterDataProvider" type="462c0819:PsiDirectoryNode" />
-              <item name="junit-data-provider-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataprovider" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="resolver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JupiterDataProvider" type="b2602c69:ProjectViewProjectNode" />
@@ -326,7 +328,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dataprovider" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JupiterDataProvider" type="b2602c69:ProjectViewProjectNode" />
@@ -336,18 +338,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dataprovider" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="resolver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JupiterDataProvider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JupiterDataProvider" type="462c0819:PsiDirectoryNode" />
-              <item name="junit-data-provider-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataprovider" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JupiterDataProvider" type="b2602c69:ProjectViewProjectNode" />
@@ -370,7 +361,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -429,18 +419,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FileToArgumentResolverTest.resolve_withInvalidFile_returnEmptyList">
-    <configuration name="FileToArgumentResolverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomArgumentProviderTest">
+    <configuration name="CustomArgumentProviderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-data-provider-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.edhernandez.junit.jupiter.dataprovider.service.resolver.*" />
+          <option name="PATTERN" value="org.edhernandez.junit.jupiter.dataprovider.provider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.edhernandez.junit.jupiter.dataprovider.service.resolver" />
-      <option name="MAIN_CLASS_NAME" value="org.edhernandez.junit.jupiter.dataprovider.service.resolver.FileToArgumentResolverTest" />
+      <option name="PACKAGE_NAME" value="org.edhernandez.junit.jupiter.dataprovider.provider" />
+      <option name="MAIN_CLASS_NAME" value="org.edhernandez.junit.jupiter.dataprovider.provider.CustomArgumentProviderTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomArgumentProviderTest.provideArguments_withValidFile_returnStreamOfArguments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-data-provider-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.edhernandez.junit.jupiter.dataprovider.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.edhernandez.junit.jupiter.dataprovider.provider" />
+      <option name="MAIN_CLASS_NAME" value="org.edhernandez.junit.jupiter.dataprovider.provider.CustomArgumentProviderTest" />
+      <option name="METHOD_NAME" value="provideArguments_withValidFile_returnStreamOfArguments" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -449,12 +455,12 @@
       <module name="junit-data-provider-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.edhernandez.junit.jupiter.dataprovider.service.resolver.*" />
+          <option name="PATTERN" value="org.edhernandez.junit.jupiter.dataprovider.resolver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.edhernandez.junit.jupiter.dataprovider.service.resolver" />
-      <option name="MAIN_CLASS_NAME" value="org.edhernandez.junit.jupiter.dataprovider.service.resolver.FileToArgumentResolverTest" />
+      <option name="PACKAGE_NAME" value="org.edhernandez.junit.jupiter.dataprovider.resolver" />
+      <option name="MAIN_CLASS_NAME" value="org.edhernandez.junit.jupiter.dataprovider.resolver.FileToArgumentResolverTest" />
       <option name="METHOD_NAME" value="resolve_withInvalidFile_returnEmptyList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -465,29 +471,13 @@
       <module name="junit-data-provider-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.edhernandez.junit.jupiter.dataprovider.service.resolver.*" />
+          <option name="PATTERN" value="org.edhernandez.junit.jupiter.dataprovider.resolver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.edhernandez.junit.jupiter.dataprovider.service.resolver" />
-      <option name="MAIN_CLASS_NAME" value="org.edhernandez.junit.jupiter.dataprovider.service.resolver.FileToArgumentResolverTest" />
+      <option name="PACKAGE_NAME" value="org.edhernandez.junit.jupiter.dataprovider.resolver" />
+      <option name="MAIN_CLASS_NAME" value="org.edhernandez.junit.jupiter.dataprovider.resolver.FileToArgumentResolverTest" />
       <option name="METHOD_NAME" value="resolve_withValidFile_returnArgument" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResourceUtilsTest.getFile_withInvalidFile_throwException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit-data-provider-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.edhernandez.junit.jupiter.dataprovider.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.edhernandez.junit.jupiter.dataprovider.utils" />
-      <option name="MAIN_CLASS_NAME" value="org.edhernandez.junit.jupiter.dataprovider.utils.ResourceUtilsTest" />
-      <option name="METHOD_NAME" value="getFile_withInvalidFile_throwException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -511,11 +501,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomArgumentProviderTest" />
+        <item itemvalue="JUnit.CustomArgumentProviderTest.provideArguments_withValidFile_returnStreamOfArguments" />
         <item itemvalue="JUnit.FileToArgumentResolverTest.resolve_withInvalidFile_returnEmptyList" />
         <item itemvalue="JUnit.FileToArgumentResolverTest.resolve_withValidFile_returnArgument" />
         <item itemvalue="JUnit.ResourceUtilsTest.getFile_withInvalidUrlLocation_throwException" />
-        <item itemvalue="JUnit.ResourceUtilsTest.getFile_withInvalidFile_throwException" />
-        <item itemvalue="JUnit.FileToArgumentResolverTest" />
       </list>
     </recent_temporary>
   </component>
@@ -538,6 +528,8 @@
       <workItem from="1557086228070" duration="11397000" />
       <workItem from="1557189748454" duration="5520000" />
       <workItem from="1557267015962" duration="15568000" />
+      <workItem from="1557359271030" duration="5538000" />
+      <workItem from="1557447205181" duration="1097000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <created>1557191444090</created>
@@ -550,18 +542,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ResourceUtilsTest_getFile_withInvalidUrlLocation_throwException - 2019.05.07 at 23h 12m 15s.xml">
-      <configuration name="ResourceUtilsTest.getFile_withInvalidUrlLocation_throwException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceUtilsTest_getFile_withInvalidUrlLocation_throwException - 2019.05.07 at 23h 12m 34s.xml">
-      <configuration name="ResourceUtilsTest.getFile_withInvalidUrlLocation_throwException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceUtilsTest_getFile_withInvalidUrlLocation_throwException - 2019.05.07 at 23h 13m 24s.xml">
-      <configuration name="ResourceUtilsTest.getFile_withInvalidUrlLocation_throwException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceUtilsTest_getFile_withInvalidUrlLocation_throwException - 2019.05.07 at 23h 13m 50s.xml">
-      <configuration name="ResourceUtilsTest.getFile_withInvalidUrlLocation_throwException" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FileToArgumentResolverTest_resolve_withValidFile_returnArgument - 2019.05.07 at 23h 16m 38s.xml">
       <configuration name="FileToArgumentResolverTest.resolve_withValidFile_returnArgument" configurationId="JUnit" />
     </history-entry>
@@ -580,9 +560,21 @@
     <history-entry file="FileToArgumentResolverTest_resolve_withInvalidFile_returnEmptyList - 2019.05.08 at 00h 17m 25s.xml">
       <configuration name="FileToArgumentResolverTest.resolve_withInvalidFile_returnEmptyList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CustomArgumentProviderTest_provideArguments_withValidFile_returnStreamOfArguments - 2019.05.09 at 21h 25m 34s.xml">
+      <configuration name="CustomArgumentProviderTest.provideArguments_withValidFile_returnStreamOfArguments" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomArgumentProviderTest_provideArguments_withValidFile_returnStreamOfArguments - 2019.05.09 at 21h 26m 15s.xml">
+      <configuration name="CustomArgumentProviderTest.provideArguments_withValidFile_returnStreamOfArguments" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomArgumentProviderTest - 2019.05.09 at 21h 27m 20s.xml">
+      <configuration name="CustomArgumentProviderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomArgumentProviderTest - 2019.05.09 at 21h 27m 58s.xml">
+      <configuration name="CustomArgumentProviderTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79073000" />
+    <option name="totallyTimeSpent" value="85708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -595,9 +587,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="713" y="58" width="494" height="923" id="Project" order="0" visible="true" weight="0.13166311" />
+      <window_info active="true" content_ui="combo" x="713" y="58" width="494" height="923" id="Project" order="0" visible="true" weight="0.23560767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -609,7 +600,7 @@
       <window_info id="Properties Pane" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -742,13 +733,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Programas/Java/1.8/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/resolver/ArgumentSourceAnnotationResolver.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.3.0/junit-jupiter-params-5.3.0.jar!/org/junit/jupiter/params/provider/ArgumentsProvider.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -764,7 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProviderTest.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/jmockit/jmockit/1.24/jmockit-1.24.jar!/mockit/internal/util/MethodReflection.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -907,16 +890,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProviderImpl.java" />
-    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/annotation/ArgumentSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/dummies/MyProviderFactoryWithProtectedConstructorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -968,16 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/service/impl/ProviderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -986,13 +949,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#845#846#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/utils/FileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1027,13 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/dummies/DummyProviderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/utils/ResourcesUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1044,6 +993,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/service/resolver/FileToArgumentResolverTest.java" />
+    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/resolver/FileToArgumentResolver.java" />
+    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/utils/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/dummies/DummyProviderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/Argument.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1051,36 +1026,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/resolver/FileToArgumentResolver.java">
+    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/annotation/ArgumentSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/service/resolver/FileToArgumentResolverTest.java">
+    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/resolver/FileToArgumentResolverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+        <state relative-caret-position="221">
+          <caret line="23" column="103" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="84" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/main/java/org/edhernandez/junit/jupiter/dataprovider/provider/Provider.java">
+    <entry file="file://$PROJECT_DIR$/junit-data-provider-core/src/test/java/org/edhernandez/junit/jupiter/dataprovider/provider/CustomArgumentProviderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="112">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
           </folding>
         </state>
       </provider>
