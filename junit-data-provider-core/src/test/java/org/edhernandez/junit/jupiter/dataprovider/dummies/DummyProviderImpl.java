@@ -1,8 +1,8 @@
 package org.edhernandez.junit.jupiter.dataprovider.dummies;
 
 import com.google.common.collect.Lists;
-import org.edhernandez.junit.jupiter.dataprovider.model.Argument;
-import org.edhernandez.junit.jupiter.dataprovider.model.Provider;
+import org.edhernandez.junit.jupiter.dataprovider.interfaces.Argument;
+import org.edhernandez.junit.jupiter.dataprovider.interfaces.Provider;
 
 import java.io.File;
 import java.util.List;

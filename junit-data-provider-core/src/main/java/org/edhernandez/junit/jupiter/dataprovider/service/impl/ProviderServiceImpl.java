@@ -1,7 +1,7 @@
 package org.edhernandez.junit.jupiter.dataprovider.service.impl;
 
-import org.edhernandez.junit.jupiter.dataprovider.model.Provider;
-import org.edhernandez.junit.jupiter.dataprovider.model.ProviderFactory;
+import org.edhernandez.junit.jupiter.dataprovider.interfaces.Provider;
+import org.edhernandez.junit.jupiter.dataprovider.interfaces.ProviderFactory;
 import org.edhernandez.junit.jupiter.dataprovider.service.ProviderService;
 import org.reflections.Reflections;
 import org.slf4j.Logger;

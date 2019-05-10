@@ -1,6 +1,6 @@
 package org.edhernandez.junit.jupiter.dataprovider.dummies;
 
-import org.edhernandez.junit.jupiter.dataprovider.model.ProviderFactory;
+import org.edhernandez.junit.jupiter.dataprovider.interfaces.ProviderFactory;
 
 public class MyProviderFactoryWithArgumentsImpl implements ProviderFactory<DummyProviderImpl> {
 
